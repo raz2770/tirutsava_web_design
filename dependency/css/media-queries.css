@@ -42,7 +42,9 @@
 	.early-box { margin-top: 80px; }
 	.early-box:last-child { margin-top: 50px; }
 	.early-box-text { padding-right: 0; text-align: center; }
-	
+	footer { text-align: center; }
+	.footer-right { padding-top: 10px; text-align: center; }
+	.footer-bottom { padding-top: 20px; }
 	
 	
 }
