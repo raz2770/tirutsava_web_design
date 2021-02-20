@@ -1,25 +1,33 @@
 
 @media (min-width: 992px) and (max-width: 1199px) {
 
-
+	.intro-box .intro-box-icon { width: 60px; height: 60px; font-size: 32px; line-height: 60px; border-radius: 22px; }
 	
-
+	
 	
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
 	
-
+	
 	
 	.header { padding: 180px 0; }
 
 	.section-description p { padding: 0; }
+	
+	.intro-box .services-box-icon { width: 50px; height: 50px; font-size: 26px; line-height: 50px; border-radius: 18px; }
+
+	.early-box { margin-top: 80px; }
+	.early-box:last-child { margin-top: 50px; }
+	.early-box-text { padding-right: 0; text-align: center; }
 	
 	
 
 }
 
 @media (max-width: 767px) {
+	
+	
 
 	.header { padding: 140px 0; }
 	.header .top-big-link { margin-top: 25px; }
@@ -30,6 +38,12 @@
 	.intro-container { padding-bottom: 60px; }
 	.intro-box { text-align: center; }
 	.intro-box h3 { margin-top: 20px; padding-top: 10px; }
+	
+	.early-box { margin-top: 80px; }
+	.early-box:last-child { margin-top: 50px; }
+	.early-box-text { padding-right: 0; text-align: center; }
+	
+	
 	
 }
 
