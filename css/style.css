@@ -42,7 +42,6 @@ img { max-width: 100%; }
 ::selection { background: #9b59b6; color: #fff; text-shadow: none; }
 
 
-/***** General style, all sections *****/
 
 .section-container {
     margin: 0 auto;
@@ -80,81 +79,7 @@ img { max-width: 100%; }
 	padding-top: 60px;
 }
 
-.btn-link-1 {
-	display: inline-block;
-	height: 50px;
-	margin: 0 5px;
-	padding: 0 28px;
-	background: #9b59b6;
-	background: rgba(155, 89, 182, 0.7);
-	border: 0;
-	font-size: 15px;
-    font-weight: 600;
-    line-height: 48px;
-    color: #fff;
-    border-radius: 4px;
-    transition: all .3s;
-}
-.btn-link-1:hover, .btn-link-1:focus, .btn-link-1:active, .btn-link-1:active:focus,
-.btn-link-1.btn-primary:not(:disabled):not(.disabled):active,
-.btn-link-1.btn-primary:not(:disabled):not(.disabled):active:focus {
-	background: #9b59b6;
-	background: rgba(155, 89, 182, 0.9);
-	outline: 0;
-	color: #fff;
-	box-shadow: none;
-}
 
-.btn-link-2 {
-	display: inline-block;
-	height: 50px;
-	margin: 0 5px;
-	padding: 0 28px;
-	background: #333;
-	background: rgba(0, 0, 0, 0.2);
-	border: 0;
-	font-size: 15px;
-    font-weight: 600;
-    line-height: 48px;
-    color: #fff;
-    border-radius: 4px;
-    transition: all .3s;
-}
-.btn-link-2:hover, .btn-link-2:focus, .btn-link-2:active, .btn-link-2:active:focus,
-.btn-link-2.btn-primary:not(:disabled):not(.disabled):active,
-.btn-link-2.btn-primary:not(:disabled):not(.disabled):active:focus {
-	background: #333; background: rgba(0, 0, 0, 0.4); outline: 0; color: #fff; box-shadow: none;
-}
-
-.btn-link-3 {
-	display: inline-block;
-	height: 50px;
-	margin: 0 5px;
-	padding: 0 28px;
-	background: none;
-	border: 0;
-	border-bottom: 2px solid #9b59b6;
-	font-size: 15px;
-    font-weight: 600;
-    line-height: 48px;
-    color: #9b59b6;
-    border-radius: 0;
-    transition: all .3s;
-}
-.btn-link-3:hover, .btn-link-3:focus, .btn-link-3:active, .btn-link-3:active:focus,
-.btn-link-3.btn-primary:not(:disabled):not(.disabled):active,
-.btn-link-3.btn-primary:not(:disabled):not(.disabled):active:focus {
-	padding: 0 10px;
-	background: none;
-	border: 0;
-	border-bottom: 2px solid #9b59b6;
-	outline: 0;
-	color: #9b59b6;
-	box-shadow: none;
-}
-
-
-/***** Divider *****/
 
 .divider-1 span {
 	display: inline-block;
@@ -163,7 +88,6 @@ img { max-width: 100%; }
 }
 
 
-/***** Top menu *****/
 
 .navbar {
 	background: #444;
@@ -197,7 +121,7 @@ img { max-width: 100%; }
 
 
 
-/***** Services *****/
+
 .intro-container
 {
 	background: url(./bg_img/bg-3.jpg);
@@ -222,7 +146,7 @@ img {
 } 
 .intro-box>img {
 	width:100%; 
-	height:400px;
+	height:395px;
 	padding-bottom: 8px; 
 	
 }
