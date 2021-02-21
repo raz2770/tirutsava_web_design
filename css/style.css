@@ -208,22 +208,26 @@ img { max-width: 100%; }
 
 
 .intro-box {
-	padding-top: 30px;
+	padding-top: 10px;
 	text-align: left;
 	border: 2px solid rgb(91, 211, 145);
 	border-radius: 10px;
 	
 	
 }
+
+img { 
+	width:100%; 
+	height:100%; 
+} 
 .intro-box>img {
-	width: 70%;
-  height: auto;
-  margin-left: 50px;
-	
+	width:100%; 
+	height:400px;
+	padding-bottom: 8px; 
 	
 }
 .intro-box>p{
-	padding: 5px;
+	padding: 1px;
 	border-radius: 3px;  
 	background: #a52f2b; /* Old browsers */
 	
